@@ -1,0 +1,161 @@
+row-full {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.main-hero{
+	margin: 40px;
+	text-align: center;
+}
+.navbar-brand img{
+    display: block;
+    object-fit: cover;
+    width: 300px;
+
+}
+#nav-elem{
+	padding: 3rem!important;
+}
+.carousel-item img{
+	width:100%;
+}
+.navbar-nav{
+	float: right!important;
+	padding: 2rem 1rem !important;
+	margin-right: 15px!important;
+}
+.home-content{
+	background: rgba(69, 86, 96, 1); 
+	text-align: center;
+    padding: 30px;
+}	
+.main-hero{
+	background:url(./images/home-bg.jpg);
+	background-attachment: fixed;
+    background-position:center center;
+    background-size: cover;
+    margin: 0px;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+
+}
+.inner{
+    background: rgba(0,0,0,.5);
+    padding:20px;
+}
+.btn{
+	background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px 35px;
+    transition: all .4s;
+}
+h2{
+	margin: 20px;
+}
+p {
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+	font-weight: bold;
+	color:#ffffff;
+}
+.fa-server{
+	font-size: 80px !important;
+    margin: 20px !important;
+    color: #052327 !important;
+}
+.fa-laptop{
+	font-size: 80px !important;
+    margin: 20px !important;
+    color: #656203;
+}
+.fa-database{
+	font-size: 80px !important;
+    margin: 20px !important;
+    color: #690808d4;
+}
+.fa-satellite-dish{
+	font-size: 80px !important;
+    margin: 20px !important;
+    color: #9d6108;
+}
+.fa-compact-disc{
+	font-size: 80px !important;
+    margin: 20px !important;
+    color: #117a8b;
+}
+.footer-section{
+	background:#424141;
+	padding: 3rem 0;
+}
+
+.footer-section img {
+	width:100%;
+}
+.footer-menu li{
+	margin:8px;
+	list-style: none;
+}
+.footer-section a{
+	text-decoration: none;
+	font-size: 21px;
+    font-weight: bolder;
+    transition: .3s;
+    font-family: 'Inconsolata', monospace;
+    color: #fff;
+
+}
+.text-center{
+	padding-top: 40px;
+	font-family: 'Inconsolata', monospace;
+	color: #fff;
+}
+#logo-top{
+	padding-top: 3rem;
+    margin-top: 3rem;
+    border-top: 2px solid #D7D7D7 !important;
+}
+
+#navigation-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navigation-list li {
+	list-style: none;
+}
+
+#navigation-list li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+.icon {
+  display: none;
+}
+
+
+@media only screen and (max-width: 990px) {
+	 a:not(:first-child) {display: none;}
+    .topnav a.icon {
+    float: right;
+    display: block;
+	}
+}
+
+@media screen and (max-width: 990px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+​
